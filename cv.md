@@ -35,11 +35,11 @@
   return sum
 }
 
-const arrayTest = [1, 2, 0, 3, 4, -2]
-const arrayTest1 = []
-// Sum of positive elements of arrayTest
-console.log(positiveSum (arrayTest))
-console.log(positiveSum (arrayTest1))
+const arrayTest = [1, 2, 0, 3, 4, -2]     // must be 10
+const arrayTest1 = []                     // must be 0
+// Sum of positive elements of arrays
+console.log(positiveSum (arrayTest))      // 10
+console.log(positiveSum (arrayTest1))     // 0
 ```
 ## Education and Courses
 * 09.2001 – 06.2006 
