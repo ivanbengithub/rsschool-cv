@@ -19,3 +19,23 @@
 * installation of switchboards and light system, wire-laying, technical and household appliances repairs.
 
 ## Code Example
+```function positiveSum(arr) {
+ let sum = 0;
+  for (let i=0; i<=arr.length; i++) {
+    if (arr[i] > 0) {
+      sum = sum + arr[i]
+    // console.log(arr[i]) //--output current el
+    //  console.log(sum)  //--add current sum el
+    } 
+  }
+  return sum
+}
+
+const arrayTest = [1, 2, 0, 3, 4, -2]
+const arrayTest1 = []
+// Sum of positive elements of arrayTest
+console.log(positiveSum (arrayTest))
+console.log(positiveSum (arrayTest1))
+```
+## Education and Courses
+*
