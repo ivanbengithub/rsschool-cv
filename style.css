@@ -1,0 +1,7 @@
+.my_photo {
+    background: url("img/my_photo.jpg") no-repeat center center / cover;
+    border: 5px solid blue;
+    height: 150px;
+    width: 30%;
+   margin-left: 500px;
+}
